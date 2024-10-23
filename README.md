@@ -5,7 +5,7 @@ The current JAX-Fluids does not have built-in differentiable boundary conditions
 
 Please cite the following paper if you find this code useful
 
-Wenkang Wang, Xu Chu, Optimized Flow Control based on Automatic-Differentiation in Compressible Turbulent Channel Flows(in preparation),2024.
+Wenkang Wang, Xu Chu, Optimized Flow Control based on Automatic-Differentiation in Compressible Turbulent Channel Flows (in preparation), 2024.
 
 ## Differentiable BCs in this patch
 ### 1. Opposition control
