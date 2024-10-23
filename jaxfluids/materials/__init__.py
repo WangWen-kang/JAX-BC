@@ -1,0 +1,14 @@
+from jaxfluids.materials.single_materials import DICT_MATERIAL
+from jaxfluids.materials.mixture_materials import DICT_MIXTURE
+
+DYNAMIC_VISCOSITY_MODELS = (
+    "CUSTOM", "SUTHERLAND", "CHAPMAN-ENSKOG")
+
+THERMAL_CONDUCTIVITY_MODELS = (
+    "CUSTOM", "SUTHERLAND", "CHAPMAN-ENSKOG", "PRANDTL")
+
+MASS_DIFFUSIVITY_MODELS = (
+    "CUSTOM", "CHAPMAN-ENSKOG")
+
+HEAT_CAPACITY_MODELS = (
+    "CONSTANT", "NASA7", "NASA9")
