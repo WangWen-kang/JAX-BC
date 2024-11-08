@@ -3,6 +3,35 @@ An extended patch to JAX-Fluids for differentiable boundary conditions
 
 The current JAX-Fluids does not have built-in differentiable boundary conditions. In this patch, we add several differentiable boundary conditions that are highly customizable to the original JAX-Fluids.
 
+The current code is modified based on the original code of JAX-Fluids 2.0. https://github.com/tumaer/JAXFLUIDS.git 
+
+https://arxiv.org/abs/2402.05193
+```
+@article{bezgin2024jax,
+  title={JAX-Fluids 2.0: Towards HPC for Differentiable CFD of Compressible Two-phase Flows},
+  author={Bezgin, Deniz A and Buhendwa, Aaron B and Adams, Nikolaus A},
+  journal={arXiv preprint arXiv:2402.05193},
+  year={2024}
+}
+```
+
+JAX-Fluids: A fully-differentiable high-order computational fluid dynamics solver for compressible two-phase flows
+https://doi.org/10.1016/j.cpc.2022.108527
+
+```
+@article{BEZGIN2022108527,
+   title = {JAX-Fluids: A fully-differentiable high-order computational fluid dynamics solver for compressible two-phase flows},
+   journal = {Computer Physics Communications},
+   pages = {108527},
+   year = {2022},
+   issn = {0010-4655},
+   doi = {https://doi.org/10.1016/j.cpc.2022.108527},
+   url = {https://www.sciencedirect.com/science/article/pii/S0010465522002466},
+   author = {Deniz A. Bezgin and Aaron B. Buhendwa and Nikolaus A. Adams},
+   keywords = {Computational fluid dynamics, Machine learning, Differential programming, Navier-Stokes equations, Level-set, Turbulence, Two-phase flows}
+} 
+```
+
 Please cite the following paper if you find this code useful
 
 Wenkang Wang, Xu Chu, Optimized Flow Control based on Automatic-Differentiation in Compressible Turbulent Channel Flows (https://arxiv.org/html/2410.23415v1), 2024.
